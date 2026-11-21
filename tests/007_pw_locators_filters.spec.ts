@@ -123,7 +123,7 @@ test('8. find the subscirbe button with multiple condition',async({page})=>{
 
    const subscribeButton =  page
     .getByRole('button')                                //condition1
-    .and(page.getByTitle('Subscribe',{exact: true}))    //condition2
+    .and(page.getByTitle('Subscribe'))                  //condition2
 
     console.log('Total number of "Subscribe" buttons are: ',await subscribeButton.count())
 
