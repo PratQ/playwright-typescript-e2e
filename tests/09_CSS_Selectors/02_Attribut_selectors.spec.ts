@@ -1,12 +1,6 @@
 
 import { test, expect } from "@playwright/test";
-import { defineConfig } from '@playwright/test';
 
-export default defineConfig({
-    use: {
-        viewport: { width: 1280, height: 720 },
-    },
-});
 
 //Hook Methods
 const URL = 'https://demowebshop.tricentis.com/'
